@@ -617,6 +617,7 @@
     },
     "only on non-AppStore version" : {
       "comment" : "annotation for the Sparkle framework license",
+      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {

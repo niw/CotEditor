@@ -23,6 +23,8 @@
 //  limitations under the License.
 //
 
+#if SPARKLE
+
 import AppKit
 import Sparkle
 
@@ -88,3 +90,5 @@ final class UpdaterManager: NSObject, SPUUpdaterDelegate {
         return checksBeta ? ["prerelease"] : []
     }
 }
+
+#endif
